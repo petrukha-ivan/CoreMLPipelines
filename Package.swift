@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CoreMLPipelines",
-    platforms: [.iOS(.v18), .macOS(.v15)],
+    platforms: [.iOS(.v18), .macOS(.v14)],
     products: [
         .library(name: "CoreMLPipelines", targets: ["CoreMLPipelines"]),
         .executable(name: "coremlpipelines-cli", targets: ["CoreMLPipelinesCLI"])
